@@ -13,7 +13,8 @@ img{
     
 }
 video{
-    width: 500px;
+    height: auto;
+    width: 100%;
     
 }
 .imgvideo{
@@ -105,4 +106,34 @@ form{
 .festivals{
     display: grid;
     grid-template-columns: 50% 50%;
+}
+img{
+    
+    height: auto;
+    width:100%;
+    background-color: blueviolet;
+    padding: 100%;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+    }
+
+@media (min-width:1024px){
+    nav{
+       display: flex;
+       flex-direction: row;
+       gap: 50px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+    }
 }
