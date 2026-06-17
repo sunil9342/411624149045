@@ -10,7 +10,7 @@ function example(){
     console.log("fail")
 }
 const example1=()=>{
-    console.log("fail")
+    console.log("pass")
 }
 
 const promise=new Promise((resolve,reject)=>{
